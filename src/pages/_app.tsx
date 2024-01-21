@@ -54,7 +54,7 @@ export default function App({ Component, pageProps }: AppProps) {
         )}
         <Component {...pageProps} />
       </div>
-      {windowWidth > 868 ? <SideMenu isOpen={menuOpen} /> : null}
+      {windowWidth < 868 ? <SideMenu isOpen={menuOpen} /> : null}
     </>
   );
 }
