@@ -1,0 +1,38 @@
+.sideMenu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 55%;
+  margin: 3rem 0;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.sideMenu.open {
+  transform: translateX(10%);
+}
+
+.customList {
+  list-style-type: none;
+  padding-left: 0;
+  font-weight: bolder;
+}
+
+.customList li {
+  margin-bottom: 0.5rem;
+}
+
+.customList li::before {
+  content: "+";
+  margin-right: 0.5rem;
+}
+
+.donateButt {
+  background-color: #f47536;
+  color: white;
+  padding: 0.3rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-top: 1rem;
+}
