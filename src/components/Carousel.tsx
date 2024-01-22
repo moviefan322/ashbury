@@ -24,8 +24,8 @@ function CustomCarousel() {
         <Carousel.Item interval={5000}>
           <div className={`${styles.carouselItem2} d-flex flex-column justify-content-center align-items-center`}>
             <div className={`${styles.matte}`}></div>
-            <h1>BOARDWALK</h1>
-            <h1>GIFT CERTIFICATES</h1>
+            <h1>Boardwalk</h1>
+            <h1>Gift Certificates</h1>
             <button className={`noStyleButt ${styles.carouselButt}`}>
               Purchase Here
             </button>
@@ -34,7 +34,7 @@ function CustomCarousel() {
         <Carousel.Item interval={5000}>
           <div className={`${styles.carouselItem3} d-flex flex-column justify-content-center align-items-center`}>
             <div className={`${styles.matte}`}></div>
-            <h1>SHOP LOCAL</h1>
+            <h1>Shop Local</h1>
             <button className={`noStyleButt ${styles.carouselButt}`}>
               TOWN DIRECTORY
             </button>
