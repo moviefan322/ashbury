@@ -19,3 +19,16 @@ body {
   cursor: pointer;
   outline: none;
 }
+
+.carousel-indicators {
+  display: none;
+}
+
+.greenButt {
+  background-color: #3dcc00;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 200;
+  margin-top: 1rem;
+}
