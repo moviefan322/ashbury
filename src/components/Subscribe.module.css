@@ -4,13 +4,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 2rem .5rem;
-  width: 100%;
-  max-width: 500px;
+  margin: 2rem 1rem;
   padding: 2rem 2rem;
   box-sizing: border-box;
   text-align: center;
-  width: 80%;
 }
 
 .form h6 {
@@ -22,10 +19,18 @@
 }
 
 .form input {
-  margin: .5rem 0;
-  padding: .7rem;
+  margin: 0.5rem 0;
+  padding: 0.7rem;
 }
 
 .form button {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  padding: 0.7rem 2rem;
+}
+
+.formform input,
+.formform button {
+  margin: 0.5rem;
+  width: 15rem;
+  height: 3rem;
 }
