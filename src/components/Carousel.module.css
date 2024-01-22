@@ -33,7 +33,9 @@
   z-index: 1;
 }
 
-.zindex {
+.carouselItem1 h1,
+.carouselItem2 h1,
+.carouselItem3 h1 {
   z-index: 2;
 }
 
