@@ -9,6 +9,20 @@
   background-attachment:scroll;
 }
 
+.carouselItem2 {
+  height: 90vh;
+  background: #151515 url("../assets/asb2.jpeg") no-repeat center center;
+  background-size: cover;
+  background-attachment:scroll;
+}
+
+.carouselItem3 {
+  height: 90vh;
+  background: #151515 url("../assets/asb3.jpeg") no-repeat center center;
+  background-size: cover;
+  background-attachment:scroll;
+}
+
 .matte {
   position: absolute;
   top: 0;
