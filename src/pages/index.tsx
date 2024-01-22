@@ -12,6 +12,7 @@ export default function Home() {
       <hr className="w-75 mx-auto" />
       <News />
       <Upcoming />
+      <hr className="w-75 mx-auto" />
     </>
   );
 }
