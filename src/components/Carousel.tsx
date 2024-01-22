@@ -4,6 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap CSS
 import styles from './Carousel.module.css';
 
 function CustomCarousel() {
+  if (typeof window !== 'undefined') {
+    require('bootstrap/dist/js/bootstrap.bundle.min');
+  }
   return (
     <section id="testimonials" className="text-white">
       <Carousel id="myCarousel" slide>
