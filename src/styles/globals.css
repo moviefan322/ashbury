@@ -44,3 +44,14 @@ body {
   z-index: 2;
   border-radius: .3rem;
 }
+
+.blueButt {
+  background-color: #36a5f4;
+  color: white;
+  padding: 0.3rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 200;
+  margin-top: 1rem;
+  z-index: 2;
+  border-radius: .3rem;
+}
