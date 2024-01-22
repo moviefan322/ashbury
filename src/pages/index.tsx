@@ -4,6 +4,7 @@ import Greetings from "@/components/Greetings";
 import News from "@/components/News";
 import Upcoming from "@/components/Upcoming";
 import OpenBiz from "@/components/OpenBiz";
+import Subscribe from "@/components/Subscribe";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Upcoming />
       <hr className="w-75 mx-auto" />
       <OpenBiz />
+      <Subscribe />
     </>
   );
 }
