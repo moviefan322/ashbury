@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "@/styles/bootstrap.scss";
 import "@/styles/globals.css";
 import { useState } from "react";
+import Head from "next/head";
 import DesktopNavBar from "@/components/DesktopNavBar";
 import MobileNavBar from "@/components/MobileNavBar";
 import SideMenu from "@/components/SideMenu";
@@ -42,6 +43,13 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <>
+      <Head>
+        <title>My Page Title</title>
+        <meta name="description" content="Description of my page" />
+        <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml" />
+
+        {/* You can add more tags here as needed */}
+      </Head>
       <div
         className={`${styles.pageContainer} ${
           menuOpen ? `${styles.slide}` : ""
