@@ -1,44 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Ashbury City Site Mock-Up [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### [Description](#Description)
+### [Installation](#Installation)
+### [Usage](#Usage)
+### [Testing](#Testing)
+### [Contributors](#Contributors)
+### [License](#License)
+### [Questions](#Questions)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<a id="Description"></a>
+## Description
+    
+This is just a demo site I drew up to try and land a contract from the city of Asbury Park
+    
+<a id="Installation"></a>
+## Installation
+    
+It's not! But you can navigate to the deployed page: https://ashbury.vercel.app/
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<a id="Usage"></a>
+## Usage
+    
+Just look at it and admire the fine craftmanship that went into the fully responsive and dynamic design (did you see those navbars!!)    
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+![Screenshot of webpage](./Develop/assets/images/screenshot.png)
+ 
+<a id="Testing"></a>
+## Testing
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+It can't
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<a id="Contributors"></a>
+## Contributors
+    
+Nobody ever gave me nothing
 
-## Learn More
+<a id="License"></a>
+## License
+    
+This is just a demo site I drew up to try and land a contract from the city of Asbury Park
 
-To learn more about Next.js, take a look at the following resources:
+<a id="Questions"></a>
+## Questions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Philip Scott Neumann
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+https://github.com/moviefan322
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# yogapage
-# nextboot
-# nextboot
-# nextboot
+philman202@yahoo.com
+    
