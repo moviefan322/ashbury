@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import styles from "./News.module.css";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 const Upcoming = () => {
   return (
@@ -16,8 +16,11 @@ const Upcoming = () => {
               height={250}
               width={290}
               alt="artisan crafting"
-              layout="responsive"
-            />
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto"
+              }} />
             <p className={styles.overlayText}>
               JAN <br />
               <span>27</span>
@@ -41,8 +44,11 @@ const Upcoming = () => {
               height={250}
               width={290}
               alt="artisan crafting"
-              layout="responsive"
-            />
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto"
+              }} />
             <p className={styles.overlayText}>
               FEB <br />
               <span>10</span>
@@ -65,8 +71,11 @@ const Upcoming = () => {
               height={250}
               width={290}
               alt="artisan crafting"
-              layout="responsive"
-            />
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto"
+              }} />
             <p className={styles.overlayText}>
               FEB <br />
               <span>21</span>
@@ -90,8 +99,11 @@ const Upcoming = () => {
               height={250}
               width={290}
               alt="artisan crafting"
-              layout="responsive"
-            />
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto"
+              }} />
             <p className={styles.overlayText}>
               FEB <br />
               <span>25</span>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "next/legacy/image";
+import Image from "next/image";
 import styles from './OpenBiz.module.css';
 
 const OpenBiz = () => {
@@ -12,8 +12,11 @@ const OpenBiz = () => {
           width={400}
           height={400}
           alt="business owner"
-          layout="responsive"
-        />
+          sizes="100vw"
+          style={{
+            width: "100%",
+            height: "auto"
+          }} />
         <div className={styles.textOverlay}>
           <h3 className={styles.h3biz}>OPEN A BUSINESS <br /> IN ASBURY PARK!</h3>
           <p>Join the community of diverse businesses that make up our downtown!</p>

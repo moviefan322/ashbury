@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import styles from "./News.module.css";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 const News = () => {
   return (
@@ -15,8 +15,11 @@ const News = () => {
             height={250}
             width={290}
             alt="artisan crafting"
-            layout="responsive"
-          />
+            sizes="100vw"
+            style={{
+              width: "100%",
+              height: "auto"
+            }} />
           <h4 className={styles.newsHead}>
             ASBURY PARK'S CREATIVE COLLECTIVE POP-UP CALENDAR FOR JAN/FEB IS NOW
             AVAILABLE
@@ -34,8 +37,11 @@ const News = () => {
             height={250}
             width={290}
             alt="jersey coffee"
-            layout="responsive"
-          />
+            sizes="100vw"
+            style={{
+              width: "100%",
+              height: "auto"
+            }} />
           <h4 className={styles.newsHead}>
             BOARDWALK BEANS LISTED AMONG NJ.COM'S BEST COFFEE SHOPS IN NJ
           </h4>
@@ -48,9 +54,12 @@ const News = () => {
             src="/flower.jpeg"
             height={250}
             width={290}
-            layout="responsive"
             alt="artisan crafting"
-          />
+            sizes="100vw"
+            style={{
+              width: "100%",
+              height: "auto"
+            }} />
           <h4 className={styles.newsHead}>
             SEASIDE GREENERY CELEBRATES ITS GRAND OPENING ON FRI DEC 1ST
           </h4>
@@ -63,9 +72,12 @@ const News = () => {
             src="/sword.jpeg"
             height={250}
             width={290}
-            layout="responsive"
             alt="artisan crafting"
-          />
+            sizes="100vw"
+            style={{
+              width: "100%",
+              height: "auto"
+            }} />
           <h4 className={styles.newsHead}>
             ASBURY PARK WELCOMES THE CREATIVE COLLECTIVE
           </h4>

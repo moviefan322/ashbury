@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 import logo from "@/assets/logo.svg";
 import { FaMagnifyingGlass } from "react-icons/fa6";
@@ -8,7 +8,15 @@ import styles from "./DesktopNavBar.module.css";
 const DesktopNavBar = () => {
   return (
     <div className="d-flex flex-row justify-content-between m-3">
-      <Image src={logo} height={60} width={60} alt="funky logo" />
+      <Image
+        src={logo}
+        height={60}
+        width={60}
+        alt="funky logo"
+        style={{
+          maxWidth: "100%",
+          height: "auto"
+        }} />
       <div
         className={`d-flex flex-row justify-content-between align-items-center ${styles.menu}`}
       >
