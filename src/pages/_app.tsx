@@ -44,7 +44,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>My Page Title</title>
+        <title>Asbury Park Downtown</title>
         <meta name="description" content="Description of my page" />
         <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml" />
 

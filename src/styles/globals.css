@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: var(--bs-light);
   color: #333;
   font-size: 16px;

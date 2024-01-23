@@ -11,11 +11,12 @@
   position: relative;
   font-weight: bolder;
   margin: 0 1.5rem;
+  padding-bottom:.5rem;
 }
 
 .dropdown {
   position: absolute;
-  top: 100%; /* Start just below the button */
+  top: 95%; /* Start just below the button */
   left: 0;
   width: 18rem;
   background-color: var(--bs-light);
