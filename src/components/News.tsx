@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import styles from "./News.module.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const News = () => {
   return (

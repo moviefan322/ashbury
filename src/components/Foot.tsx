@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import styles from "./Foot.module.css";
 

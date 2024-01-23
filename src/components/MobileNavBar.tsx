@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Hamburger from "hamburger-react";
 import logo from "@/assets/logo.svg";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "./MobileNavBar.module.css";
 
 interface NavBarProps {
