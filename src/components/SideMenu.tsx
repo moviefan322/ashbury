@@ -90,9 +90,10 @@ const SideMenu = ({ isOpen }: SideMenuProps) => {
           </button>
           {showBusinessMenu && (
             <ul className={styles.noStyleLi}>
-              <li>UPCOMING EVENTS</li>
-              <li>RECURRING EVENTS</li>
-              <li>FARMERS MARKET</li>
+              <li>AVAILABLE PROPERTIES</li>
+              <li>BUSINESS SUPPORT</li>
+              <li>LOCAL EMPLOYMENT</li>
+              <li>RESOURCES & LINKS</li>
             </ul>
           )}
         </li>

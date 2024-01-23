@@ -17,7 +17,7 @@ function CustomCarousel() {
             <h1>Wed Feb 7</h1>
             <h1>6:30pm</h1>
             <button className={`noStyleButt ${styles.carouselButt}`}>
-              RSVP Here
+              RSVP
             </button>
           </div>
         </Carousel.Item>
@@ -27,7 +27,7 @@ function CustomCarousel() {
             <h1>Boardwalk</h1>
             <h1>Gift Certificates</h1>
             <button className={`noStyleButt ${styles.carouselButt}`}>
-              Purchase Here
+              PURCHASE
             </button>
           </div>
         </Carousel.Item>
@@ -36,7 +36,7 @@ function CustomCarousel() {
             <div className={`${styles.matte}`}></div>
             <h1>Shop Local</h1>
             <button className={`noStyleButt ${styles.carouselButt}`}>
-              TOWN DIRECTORY
+              DIRECTORY
             </button>
           </div>
         </Carousel.Item>
